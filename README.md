@@ -12,7 +12,7 @@ for example birds, beasts, wild
 * nav
 * beasts-panel
 * beast-card
-* birds-paned
+* birds-panel
 * bird-card
 * wilds-panel
 * wild-card
