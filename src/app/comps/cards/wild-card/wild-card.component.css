@@ -1,0 +1,18 @@
+.wild-card-box{
+    width: 30vw;
+    margin: 25px;
+    background-color:#b6ada2;
+    display: block;
+    justify-content: center;
+    text-align: left;
+}
+img{
+    width: 25vw;
+    margin: 20px;
+}
+h2{
+    display: inline;
+}
+h3{
+    margin: 3px;
+}

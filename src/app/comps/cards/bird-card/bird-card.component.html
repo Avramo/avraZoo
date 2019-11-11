@@ -1,1 +1,6 @@
-<p>bird-card works!</p>
+<div class="bird-card-box">
+  <h3> <h2>Name:</h2> {{ birdSvc.currentBird.name }}</h3>
+    <h3> <h2>Size:</h2> {{ birdSvc.currentBird.size }}</h3>
+    <h3> <h2>Habitat:</h2> {{ birdSvc.currentBird.habitat }}</h3>
+    <img [src]="birdSvc.currentBird.image"/>
+</div>

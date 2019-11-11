@@ -1,0 +1,22 @@
+.nav-box{
+    border: springgreen solid 3px;
+    width: 33vw;
+    margin: 15px;
+    display: flex;
+    justify-content:space-between;
+   
+}
+ul{
+   width: 100%;
+    margin: 15px;
+    display:flex;
+    justify-content: space-around;
+}
+div{
+   display: flex; 
+}
+li:hover {
+    color: blue;
+    text-decoration: blue underline;
+    cursor: pointer;
+}

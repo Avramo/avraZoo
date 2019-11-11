@@ -1,0 +1,24 @@
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.header-logo{
+    width: 33vw;
+    display: flex;
+
+}
+.header-logo > img{
+   width: 100%;
+   margin: 10px;
+}
+.header-login{
+    width: 33vw;
+    border: orangered solid 3px;
+    font-size: xx-large;
+    margin: 10px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}

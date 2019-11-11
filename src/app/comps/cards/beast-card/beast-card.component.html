@@ -1,1 +1,6 @@
-<p>beast-card works!</p>
+<div class="beast-card-box">
+        <h3> <h2>Name:</h2> {{ beastsSvc.currentCattle.name }}</h3>
+          <h3> <h2>Size:</h2> {{ beastsSvc.currentCattle.size }}</h3>
+          <h3> <h2>Habitat:</h2> {{ beastsSvc.currentCattle.habitat }}</h3>
+          <img [src]="beastsSvc.currentCattle.image"/>
+      </div>

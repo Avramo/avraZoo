@@ -1,1 +1,6 @@
-<p>wild-card works!</p>
+<div class="wild-card-box">
+        <h3> <h2>Name:</h2> {{ wildsSvc.currentWild.name }}</h3>
+          <h3> <h2>Size:</h2> {{ wildsSvc.currentWild.size }}</h3>
+          <h3> <h2>Habitat:</h2> {{ wildsSvc.currentWild.habitat }}</h3>
+          <img [src]="wildsSvc.currentWild.image"/>
+      </div>
