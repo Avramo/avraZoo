@@ -1,1 +1,14 @@
-<p>beasts-panel works!</p>
+<div class="beastsPanel">
+        <div class="beastPanelWelcome">
+            <h2>Welcome to the barn</h2>
+        </div>
+        <div class="beastPanelBottom">
+            <ul>
+                <h4>Our Cattle</h4>      <!-- i don't like the name beasts... -->
+                <li *ngFor='let beast of beastsSvc.cattleArray'> {{ beast.name }}</li>
+            </ul>
+            <app-beast-card></app-beast-card>
+        </div>
+        
+    
+    </div>

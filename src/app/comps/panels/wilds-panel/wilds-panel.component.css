@@ -1,0 +1,23 @@
+.wildsPanel{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 140, 140);
+    margin: 15px;
+    
+}
+.wildPanelWelcome{
+    text-align: center;
+    color: brown;
+}
+.wildPanelBottom{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+li{
+    font-size: 18pt;
+}
+h4{
+    font-size: 25pt;
+    margin: 15px;
+}

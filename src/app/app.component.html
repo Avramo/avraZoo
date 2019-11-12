@@ -1,13 +1,14 @@
 
-<app-header></app-header>
+   
+<div class="app-wholepage">
 
-<app-beasts-panel></app-beasts-panel>
-<app-birds-panel ></app-birds-panel>
-<app-wilds-panel></app-wilds-panel>
+   <app-header></app-header>
 
-<app-beast-card></app-beast-card>
-<app-bird-card></app-bird-card>
-<app-wild-card></app-wild-card>
+    <app-birds-panel *ngIf='pagingSvc.currentPanel == "birds" '></app-birds-panel>
+    <app-beasts-panel *ngIf='pagingSvc.currentPanel == "beasts" '></app-beasts-panel>
+    <app-wilds-panel *ngIf='pagingSvc.currentPanel == "wilds" '></app-wilds-panel>
 
-<app-paginator></app-paginator>
-<app-footer></app-footer>
+    <app-paginator></app-paginator>
+    <app-footer></app-footer>
+
+</div>

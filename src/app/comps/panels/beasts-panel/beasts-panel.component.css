@@ -1,0 +1,23 @@
+.beastsPanel{
+    display: flex;
+    flex-direction: column;
+    background-color: lemonchiffon;
+    margin: 15px;
+    
+}
+.beastPanelWelcome{
+    text-align: center;
+    color: rgb(243, 120, 4);
+}
+.beastPanelBottom{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+li{
+    font-size: 18pt;
+}
+h4{
+    font-size: 25pt;
+    margin: 15px;
+}

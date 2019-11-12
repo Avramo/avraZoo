@@ -1,1 +1,14 @@
-<p>wilds-panel works!</p>
+<div class="wildsPanel">
+        <div class="wildPanelWelcome">
+            <h2>Welcome to the Safari</h2>
+        </div>
+        <div class="wildPanelBottom">
+            <ul>
+                <h4>Our Wild Animals</h4>
+                <li *ngFor='let wild of wildsSvc.wildsArray'> {{ wild.name }}</li>
+            </ul>
+            <app-wild-card></app-wild-card>
+        </div>
+        
+    
+    </div>

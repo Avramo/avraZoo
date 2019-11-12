@@ -1,0 +1,23 @@
+.birdsPanel{
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    margin: 15px;
+    
+}
+.birdPanelWelcome{
+    text-align: center;
+    color: rgb(231, 8, 194);
+}
+.birdPanelBottom{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+li{
+    font-size: 18pt;
+}
+h4{
+    font-size: 25pt;
+    margin: 15px;
+}
