@@ -1,7 +1,8 @@
 .nav-box{
     border: springgreen solid 3px;
-    width: 33vw;
-    margin: 15px;
+    width: 25vmax;
+    height: 15vmax;
+    margin: 5px;
     display: flex;
     justify-content:center;
     align-items: center;   
@@ -14,7 +15,7 @@ ul{
     flex-wrap: wrap;
 }
 li{
-    margin: 5px;
+    margin: 2px;
     width: auto;
     display: flex;
     justify-content: space-between;

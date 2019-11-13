@@ -1,11 +1,15 @@
 .paginatorBox{
+    height: 20vmin;
     background-color: cornflowerblue;
     display: flex;
     justify-content: space-around;
-    margin: 15px;
+    margin:15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 img{
-    width: 25vw;
+    width: 10vmin ;
+    height: 10vmin;
     margin: 15px;
 }
 .backArrow{
