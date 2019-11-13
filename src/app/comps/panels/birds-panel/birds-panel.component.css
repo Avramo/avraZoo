@@ -1,7 +1,10 @@
 .birdsPanel{
     display: flex;
     flex-direction: column;
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    background-image: url('https://previews.123rf.com/images/burnyipotok/burnyipotok1602/burnyipotok160200015/54160392-many-birds-gulls-in-the-rays-of-the-sun-at-sunset-on-a-background-of-sky-and-sea-with-the-waves-beau.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 15px;
     
 }

@@ -1,24 +1,31 @@
-.header-flex{
+.header-box{
+    margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: orange;
 }
 .header-logo{
-    width: 33vw;
+    margin: 10px;
     display: flex;
+    width: 25vw;
 
 }
-.header-logo > img{
-   width: 100%;
-   margin: 10px;
-}
 .header-login{
-    width: 33vw;
+    display: flex;
+    text-align: center;
+    width: 25vw;
     border: orangered solid 3px;
-    font-size: xx-large;
-    margin: 10px;
+    font-size: 18pt;
+    margin: 5px;
 }
-div{
+app-nav{
+    width: 50vw;
     display: flex;
     justify-content: space-around;
+    /* transform: translate(-50%, -50%); */
+    position: relative;
+    
+    resize: both;
+    overflow: auto;
+
 }

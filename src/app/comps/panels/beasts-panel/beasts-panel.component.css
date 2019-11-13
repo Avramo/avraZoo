@@ -1,7 +1,10 @@
 .beastsPanel{
     display: flex;
     flex-direction: column;
-    background-color: lemonchiffon;
+    /* background-color: lemonchiffon; */
+    background-image: url('https://www.gannett-cdn.com/-mm-/a98a624de7c393bee55318166953890fd5c0f5a5/c=136-0-2264-1600/local/-/media/2018/06/16/WisPub/WisconsinStateFarmer/636647495674536124-WSF-0629-WFU-pasture-walk-2.jpg?width=640');
+    background-repeat: no-repeat;
+    background-size:100vw 70vh;
     margin: 15px;
     
 }

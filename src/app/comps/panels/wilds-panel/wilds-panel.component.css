@@ -1,7 +1,10 @@
 .wildsPanel{
     display: flex;
     flex-direction: column;
-    background-color: rgb(230, 140, 140);
+    /* background-color: rgb(230, 140, 140); */
+    background-image: url('https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180627142109-eight-top-safari-destinations---kenya-mark-eveleigh-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 15px;
     
 }

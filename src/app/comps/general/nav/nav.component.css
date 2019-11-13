@@ -3,18 +3,28 @@
     width: 33vw;
     margin: 15px;
     display: flex;
-    justify-content:space-between;
-   
+    justify-content:center;
+    align-items: center;   
 }
 ul{
-   width: 100%;
+    width: 30vw;
     margin: 15px;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-div{
-   display: flex; 
+li{
+    margin: 5px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size-adjust: none;
+    font-weight: bolder;
+    font-size: larger;
 }
+
 li:hover {
     color: blue;
     text-decoration: blue underline;
