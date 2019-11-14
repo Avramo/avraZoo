@@ -13,6 +13,7 @@ export class BirdsService {
     http.get('https://raw.githubusercontent.com/Avramo/avrazoo/master/src/assets/birds.json')
       .subscribe(birdData => {
         this.birdsArray = birdData as Birds[]
+        this.currentBird = this.birdsArray[this.currentBirdIndex]
       })
    }
 

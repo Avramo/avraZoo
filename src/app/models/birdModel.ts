@@ -1,5 +1,5 @@
 export class Birds{
-    name:string 
+    name:string
     size:string
     habitat:string
     src:string
