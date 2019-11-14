@@ -1,14 +1,23 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Birds } from '../models/birdModel';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class BirdsService {
+ 
 
   constructor(private http:HttpClient ) {
-    // http.get()
+   let birdJson = http.get('https://raw.githubusercontent.com/Avramo/avrazoo/master/src/assets/birds.json');
+   
+   console.log('birdJson in BirdsService: ', birdJson)
+
+   birdJson.subscribe(birdData => {
+     this.birdsArray = birdData as Birds[]
+
+   })
    }
 
   // birdsArray = [
@@ -18,7 +27,8 @@ export class BirdsService {
   //   {name:'Golden Pheasant', size:'large', habitat:'China', image:'https://www.wowamazing.com/wp-content/uploads/2015/07/141801_857051_1933956.jpg'},
   //   {name:'Northern Cardinal', size:'small', habitat:'North America', image:'http://www.birdsandblooms.com/wp-content/uploads/2014/11/birding_basics_northern_cardinals.jpg'},
   // ]
-  birdsArray = [];
+
+  birdsArray:Birds[] = [];
   currentBirdIndex = 0;
   currentBird = this.birdsArray[ this.currentBirdIndex ];
 
