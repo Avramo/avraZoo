@@ -10,14 +10,10 @@ export class BirdsService {
  
 
   constructor(private http:HttpClient ) {
-   let birdJson = http.get('https://raw.githubusercontent.com/Avramo/avrazoo/master/src/assets/birds.json');
-   
-   console.log('birdJson in BirdsService: ', birdJson)
-
-   birdJson.subscribe(birdData => {
-     this.birdsArray = birdData as Birds[]
-
-   })
+    http.get('https://raw.githubusercontent.com/Avramo/avrazoo/master/src/assets/birds.json')
+      .subscribe(birdData => {
+        this.birdsArray = birdData as Birds[]
+      })
    }
 
   // birdsArray = [
@@ -29,8 +25,10 @@ export class BirdsService {
   // ]
 
   birdsArray:Birds[] = [];
+
   currentBirdIndex = 0;
-  currentBird = this.birdsArray[ this.currentBirdIndex ];
+  currentBird:Birds;
+  // currentBird = this.birdsArray[ this.currentBirdIndex ];
 
 }
 
