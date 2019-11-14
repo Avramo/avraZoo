@@ -12,6 +12,7 @@ import { NavComponent } from './comps/general/nav/nav.component';
 import { PaginatorComponent } from './comps/general/paginator/paginator.component';
 import { BirdsPanelComponent } from './comps/panels/birds-panel/birds-panel.component';
 import { WildsPanelComponent } from './comps/panels/wilds-panel/wilds-panel.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { WildsPanelComponent } from './comps/panels/wilds-panel/wilds-panel.comp
     WildsPanelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
